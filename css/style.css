@@ -1,0 +1,37 @@
+.game-board{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #E07406;
+  color: #fff;
+  border: 6px solid #E6994C;
+  border-radius: 10px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.game-board > div {
+  border: 6px solid #E6994C;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100px;
+  height: 50px;
+  background-color: #E07406;
+  color:#fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em; 
+  font-weight: bold;
+  border: 2px solid #E6994C;
+  border-radius:10px;
+}
+
+.ganhou {
+  background-color: black;
+  border: 2px solid #fff;
+}

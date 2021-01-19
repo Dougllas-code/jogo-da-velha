@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  
+  <div class="game-board"></div>
+  <button onclick="jogoDaVelha.start()">Start</button>
+
+  <script src="./js/tic-tac-toe.js"></script>
+
+  <script>
+    jogoDaVelha.init(document.querySelector('.game-board'))
+    jogoDaVelha.start()
+  </script>
+</body>
+</html>
